@@ -29,7 +29,7 @@ async function invokeAction() {
 			console.log(await addContact(options.name, options.email, options.phone));
 			break;
 		default:
-			console.log('Invalid action');
+			console.log('Invalid action'.red);
 	}
 }
 
